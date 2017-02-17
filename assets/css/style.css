@@ -1,0 +1,187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+    font-family: "Luke";
+    src: url('./../fonts/Luke.otf'),
+    url('Luke.otf'); /* IE */
+}
+@font-face{
+    font-family: "DK";
+    src: url('./../fonts/dk_midnight_chalker.otf'),
+    url('dk_midnight_chalker.otf'); /* IE */
+}
+@font-face{
+    font-family: "moon";
+    src: url('./../fonts/moon_flower.ttf'),
+    url('moon_flower.ttf'); /* IE */
+}
+@font-face{
+    font-family: "moon_bold";
+    src: url('./../fonts/moon_flower_bold.ttf'),
+    url('moon_flower_bold.ttf'); /* IE */
+}
+html { 
+  background: url('./../images/Paper.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -background-size: cover;
+  overflow: auto;
+}
+#errors{
+	font-family: "DK";
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 1%;
+	color: red;
+}
+#main_title{
+	font-family: "Luke";
+	text-align: center;
+	margin-top: 8%;
+	font-weight: lighter;
+	font-size: 400%;
+}
+.login_input{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	text-align: center;
+	margin-bottom: 1%;
+	width: 15%;
+	font-family: "DK";
+	font-size: 200%;
+}
+#login_note{
+	font-family: "DK";
+	font-size: 150%;
+	text-align: center;
+}
+#login_cred{
+	font-family: "DK";
+	font-size:140%;
+	text-align: center;
+}
+#top_nav{
+	width: 100%;
+	height: 25%;
+	margin-top: 1%;
+	text-align: center;
+	margin-bottom: 1%;
+}
+	#top_nav a{
+		margin-left: 1%;
+		margin-right: 1%;
+		text-decoration: none;
+		font-family: "DK";
+		color: black;
+		font-size: 300%;
+	}
+		#top_nav a:hover{
+			color: white;
+		}
+#favorites p{
+	text-align: center;
+	font-family: "Luke";
+	font-size: 160%;
+	margin-top: 2%;
+}
+.table1{
+	margin-left: auto;
+	margin-right: auto;
+}
+	.table1 thead{
+		display: table-header-group;
+	}
+	.table1 th{
+		font-family: "DK";
+		font-size: 200%;
+	}
+	.table1 td{
+		font-family: "moon_bold";
+		font-size: 175%;
+		text-align: center;
+		padding-top: 1%;
+	}
+	.table1 a{
+		text-decoration: none;
+		color: black;
+	}
+		.table1 a:hover{
+			color: white;
+		}
+#contacts p{
+	text-align: center;
+	font-family: "Luke";
+	font-size: 160%;
+	margin-top: 2%;
+}
+#new_contact{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200%;
+	font-family: "DK";
+}
+	#new_contact label{
+		display: block;
+		width: 25%;	
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#new_contact input{
+		display: block;
+		border: none;
+		font-family: "DK";
+		font-size: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	}
+	#submit_btn{
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1%;
+		background-color: transparent;
+	}
+		#submit_btn:hover{
+			color:white;
+		}
+#map_form{
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+	#map_form label{
+		font-family: "DK";
+		font-size: 200%;
+		display: block;
+		margin-bottom: 1%;
+	}
+	#map_form input{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		border: none;
+		font-family: "DK";
+		font-size: 150%;
+		width: 15%;
+
+	}
+	#map_form select{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: "DK";
+		font-size: 150%;
+		border: none;
+		width: 15%;
+	}
