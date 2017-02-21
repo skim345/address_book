@@ -7,7 +7,7 @@
 * Get directions from start address to a contact in users address book
 
 ![login](login.PNG)
-![maing_page](main_page.png)
-![directions](directions.png)
+![maing_page](main_page.PNG)
+![directions](directions.PNG)
 
 
