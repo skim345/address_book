@@ -6,7 +6,7 @@
 * "Favorite" a contact and remove them as needed
 * Get directions from start address to a contact in users address book
 
-![login](login.png)
+![login](login.PNG)
 ![maing_page](main_page.png)
 ![directions](directions.png)
 
