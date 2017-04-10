@@ -9,6 +9,7 @@ class Mains extends CI_Controller {
 	}
 	public function login()
 	{
+		// login validation
 		$post=$this->input->post();
 		$this->load->model('Main');
 		$result= $this->Main->login_validate($post);
@@ -37,6 +38,7 @@ class Mains extends CI_Controller {
 	}
 	public function logoff()
 	{
+		// logoff
 		$this->session->sess_destroy();
 		redirect(base_url('/'));
 	}

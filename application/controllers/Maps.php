@@ -5,12 +5,14 @@ class Maps extends CI_Controller {
 
 	public function index()
 	{
+		// get all contacts and load on this page
 		$this->load->model('Book');
 		$contacts['contacts']=$this->Book->get_contacts();
 		$this->load->view('map',$contacts);
 	}
 	public function directions()
 	{
+		// getting directions from user input
 		$post=$this->input->post();
 		$full_name=$post['contact'];
 		$split= explode(" ",$full_name);

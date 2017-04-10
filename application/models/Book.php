@@ -50,10 +50,12 @@ class Book extends CI_Model
 		$this->form_validation->set_rules("zip", "Zip Code", "trim|numeric");
 		if($this->form_validation->run())
 		{
+			// if validation rules passes, then okay to move forward
 			return "valid";
 		}
 		else
 		{
+			// not all rules were met for validation
 			return array(validation_errors());
 		}
 	}
